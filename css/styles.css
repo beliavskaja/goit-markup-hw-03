@@ -119,6 +119,9 @@ img {
 }
 
 /* ======= Header ======= */
+.page-header {
+  border-bottom: 1px solid #eeeeee;
+}
 .header-container {
   display: flex;
   align-items: center;
@@ -223,6 +226,10 @@ img {
   margin-top: 30px;
 }
 
+.advantage {
+  padding-bottom: 0;
+}
+
 /* ======= Our Services section ======= */
 .services-heading {
   font-weight: bold;
@@ -239,7 +246,7 @@ img {
 }
 
 /* ======= Our Team section ======= */
-.our-team {
+.our-team-section {
   background-color: #f5f4fa;
   width: 1600px;
   margin-left: auto;
@@ -280,7 +287,7 @@ img {
 
 .our-team-item {
   padding: 0;
-  flex-basis: calc((100% - 120px) / 4);
+  flex-basis: calc((100% - 150px) / 4);
   margin-left: 30px;
   margin-top: 30px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -301,6 +308,7 @@ img {
   padding-left: 215px;
   padding-top: 60px;
   padding-bottom: 60px;
+  box-sizing: border-box;
 }
 
 .footer-logo {
@@ -350,12 +358,18 @@ img {
 .filter-button.current {
   background-color: var(--accent-color);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .filter-button:focus,
 .filter-button:hover {
   background-color: var(--accent-color);
   color: #ffffff;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .filter-buttons {
@@ -384,7 +398,11 @@ img {
 }
 
 .portfolio-description {
-  padding: 20px, 24px;
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-bottom: 20px;
+  padding-right: 24px;
+  border: 1px solid #eeeeee;
 }
 
 .portfolio-list {
@@ -395,10 +413,8 @@ img {
 }
 
 .portfolio-item {
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 120px) / 3);
   margin-left: 30px;
   margin-top: 30px;
   background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
