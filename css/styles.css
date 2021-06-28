@@ -44,6 +44,7 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 .section {
   padding-top: 94px;
@@ -60,13 +61,7 @@ img {
 .email-link:hover,
 .email-link:focus,
 .tel-link:hover,
-.tel-link:focus,
-.footer-email-link:hover,
-.footer-email-link:focus,
-.footer-tel-link:hover,
-.footer-tel-link:focus,
-.address:hover,
-.address:focus {
+.tel-link:focus {
   color: var(--accent-color);
 }
 
@@ -154,19 +149,18 @@ img {
 
 .hero {
   background: var(--sections-background-color);
-  width: 1600px;
   height: 600px;
 }
 
 .hero-section {
   text-align: center;
   padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
   padding-bottom: 200px;
 }
 
 .hero-title {
+  max-width: 696px;
+  margin: 0 auto 30px auto;
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 900;
@@ -175,12 +169,10 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 30px;
 }
 
 .modal-btn {
-  width: 200px;
-  height: 50px;
+  padding: 10px 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -198,6 +190,7 @@ img {
 }
 
 /* ======= Advantage section ======= */
+
 .advantage-name {
   font-weight: bold;
   font-size: 14px;
@@ -248,9 +241,6 @@ img {
 /* ======= Our Team section ======= */
 .our-team-section {
   background-color: #f5f4fa;
-  width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .our-team-heading {
@@ -297,15 +287,15 @@ img {
 
 .team-member {
   background-color: #ffffff;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 30px 15px;
 }
 
 /* ======= Footer section ======= */
-.footer-section {
+.footer {
   background: var(--sections-background-color);
-  width: 1600px;
-  padding-left: 215px;
+}
+
+.footer-section {
   padding-top: 60px;
   padding-bottom: 60px;
   box-sizing: border-box;
@@ -322,10 +312,13 @@ img {
   margin-bottom: 20px;
 }
 
+.address-link {
+  margin-bottom: 9px;
+}
+
 .address {
   font-family: var(--main-font);
   color: #ffffff;
-  margin-bottom: 9px;
 }
 
 .footer-email-link,
@@ -333,15 +326,14 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-email-link {
+.footer-email {
   margin-bottom: 9px;
 }
 
 /* ======= Portfolio page ======= */
 /* ======= Filter buttons ======= */
 .filter-button {
-  width: 128px;
-  height: 38px;
+  padding: 10px 20px;
   left: 576px;
   top: 174px;
   font-weight: 500;
