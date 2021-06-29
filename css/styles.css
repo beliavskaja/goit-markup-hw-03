@@ -81,7 +81,7 @@ img {
   color: #757575;
 }
 
-.email-link {
+.header-email {
   margin-right: 50px;
 }
 
@@ -149,7 +149,6 @@ img {
 
 .hero {
   background: var(--sections-background-color);
-  height: 600px;
 }
 
 .hero-section {
@@ -172,7 +171,7 @@ img {
 }
 
 .modal-btn {
-  padding: 10px 20px;
+  padding: 5px 20px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
@@ -333,7 +332,7 @@ img {
 /* ======= Portfolio page ======= */
 /* ======= Filter buttons ======= */
 .filter-button {
-  padding: 10px 20px;
+  padding: 5px 20px;
   left: 576px;
   top: 174px;
   font-weight: 500;
